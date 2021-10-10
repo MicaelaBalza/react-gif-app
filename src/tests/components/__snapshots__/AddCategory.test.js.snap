@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en AddCategory debe mostrarse correctamente 1`] = `
+<form
+  className="search-form"
+  onSubmit={[Function]}
+>
+  <input
+    className="search-input"
+    onChange={[Function]}
+    placeholder="Buscar Gifs"
+    type="text"
+    value=""
+  />
+  <p
+    className="search-icon"
+    onClick={[Function]}
+  >
+    ⚲
+  </p>
+</form>
+`;

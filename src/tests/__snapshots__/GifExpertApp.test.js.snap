@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas GifExpertApp debe renderizar el componente correctamente 1`] = `
+<Fragment>
+  <h2
+    className="page-title"
+  >
+    GIF APP
+  </h2>
+  <div
+    className="page-content"
+  >
+    <AddCategory
+      setCategories={[Function]}
+    />
+  </div>
+</Fragment>
+`;

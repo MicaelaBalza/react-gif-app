@@ -3,8 +3,8 @@ import { useState } from 'react';
 import AddCategory from './components/AddCategory';
 import GifGrid from './components/GifGrid';
 
-function GifExpertApp() {
-  const [categories, setCategories] = useState(['Pokemon']);
+const GifExpertApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
